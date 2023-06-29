@@ -1,3 +1,5 @@
+import torch
+
 def load_weights(
     pretrained_checkpoint_path: str, 
     target_model: torch.nn.Module, 
